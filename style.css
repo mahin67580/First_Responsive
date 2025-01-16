@@ -60,7 +60,16 @@ span {
     line-height: 28px;
 }
 
-.header_img {}
+.header_img {
+    background-image: url("images/shapes/shape-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-position-y: bottom;
+
+
+}
 
 .header_img>img {
     width: 100%;
